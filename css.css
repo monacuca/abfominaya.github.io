@@ -1,0 +1,158 @@
+#wrapper {
+    
+    width: auto;
+    height: auto;
+    margin-right: 10px;
+    text-align: center;
+    
+    
+}
+
+.door1{
+    display:inline-block;
+}
+#ddd{
+    margin-left: 150px;
+}
+.w3-bar-block .w3-bar-item {
+    width: 100%;
+    display: block;
+    padding: 8px 16px;
+    text-align: left;
+    border: none;
+    outline: none;
+    white-space: normal;
+    float: none;
+}
+.door1 {
+    background-size: contain;
+    background: url("logos/door-01.png") no-repeat;
+    height: 300px;
+    width:200px;
+    background-size: contain;
+    
+}
+.door1:hover {
+    background: url("logos/door2.png") no-repeat;
+     background-size: contain
+}
+.w3-large {
+    font-size: 18px !important;
+}
+.w3-black {
+    color: #000 !important;
+    background-color:transparent  !important;
+}
+.w3-black:hover {
+    color: #ccc !important;
+    background-color:transparent  !important;
+}
+
+.ex{
+    color: #fff !important;
+    background-color:transparent  !important;
+
+}
+.ex:hover{
+    color: #ccc !important;
+    background-color:transparent  !important;
+
+
+}
+#sidebar2{
+    width: auto;
+    height: auto;
+    z-index: 3;
+    position: absolute;
+    color: white;
+    background-color: transparent;
+    
+    
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.accordion {
+    background-color: #ccc;
+    color: #444;
+    cursor: pointer;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    border-bottom-style: solid;
+
+}
+
+.active, .accordion:hover {
+    background-color: #ccc; 
+}
+
+.panel {
+    
+    padding: 0 18px;
+    display: none;
+    background-color: black;
+}
+#statement{
+    max-width: 600px;
+    
+    margin: auto;
+    font-size: 15px;
+    text-align: left;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+#statement img{
+    width: 100%;
+    border-style: dotted;
+    border-width: thin;
+    color: black;    
+}
+#statement img:hover{
+    border-style: solid;
+    
+    
+}
+#sidebar{
+    width: 80px;
+    height:1000px;
+    background-color: transparent;
+    position: fixed;
+    z-index: 2;
+    display:inline-block;
+}
+#mid{
+    width: 500px;
+    height: auto;
+    display: inline-block;
+}
+#welcome{font-family:
+    'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size:22px;
+   }
+
+#win2{float:left;
+    margin-top: 150PX;
+}
+#win1{
+    float:right;
+    margin-top: 150PX;
+    
+}
+@font-face {
+    font-family: OCR;
+    src: url(fonts/OCRAEXT.TTF);
+}
