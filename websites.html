@@ -1,1 +1,124 @@
 
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <link rel="stylesheet" href="W3.CSS">
+    <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<title>Angelica Bonilla</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style type="text/css">
+
+</style>
+
+<body>
+
+    <div id="sidebar">
+        <div id="sidebar2">
+            <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none " id="leftMenu"
+                width="90px">
+                <button onclick="closeLeftMenu()" class="w3-bar-item w3-button w3-large w3-black"> <span
+                        style="font-size: 30px">
+                        <div class="ex">
+                            <center>&times;</center>
+                        </div>
+                    </span></button><br>
+                <center> <a href="pageone.html" title="home"><img src="logos/whiteablogo-01.png" alt="Smiley face"
+                            height="130"></a></center>
+                &nbsp;&nbsp;&nbsp;<span style="font-family: courier; font-size: 20px">...| <br>
+                    &nbsp;&nbsp;&nbsp;.....|</span>
+                <br>
+                <br>
+                <span style="font-family: courier, monospace;"><button class="accordion">Non-Code_</button>
+                    <div class="panel">
+                        <a href="art_projects.html" class="w3-bar-item w3-button">>.Projects</a><a
+                            href="illustration.html" class="w3-bar-item w3-button">>.Illustration</a>
+                        <a href="pre2019art.html" class="w3-bar-item w3-button">>.Pre-2019 Art</a>
+                    </div>
+
+                    <button class="accordion">Code_</button>
+                    <div class="panel">
+                        <a href="websites.html" class="w3-bar-item w3-button">>.Websites</a><a href="projects.html"
+                            class="w3-bar-item w3-button">>.Projects</a>
+                    </div>
+                    <button class="accordion">About_</button>
+                    <div class="panel">
+                        <a href="contact.html" class="w3-bar-item w3-button">>.Contact</a><a href="statement.html"
+                            class="w3-bar-item w3-button">>.Statement</a><a href="resume.html"
+                            class="w3-bar-item w3-button">>.Resume</a>
+                    </div>
+                </span>
+                <br>
+                <br>
+            </div>
+
+
+
+
+            <div class="w3-black">
+                <span style="font-size: 1000px"> <button class="w3-button w3-black w3-xxxlarge w3-left"
+                        onclick="openLeftMenu()">&#9710;</button></span>
+            </div>
+
+        </div>
+    </div>
+    <div id="wrapper">
+
+        <center><span style="font-family: monospace; font-size: 30px">...
+            </span></center>
+        <div id="welcome">a. b. fominaya</div>
+
+        <span style="font-family: monospace; font-size: 14px">websites<br></span>
+
+        <br>
+        <div id="statement">
+            <span style="font-family: monospace; font-size: 12px">
+                <center>This is a directory of my web projects, some are crosslisted with my <a
+                        href="art_projects.html">art projects</a>.</center>
+            </span>
+            <center>
+
+               [This page is still being built]
+
+
+            </center>
+        </div>
+        <br>
+        <br>
+        <br>
+        
+        <p style = "text-align: center;font-family: 'Courier New', Courier, monospace; font-size: 30px">...</p>
+        <p style = "text-align: center;font-family: 'Courier New', Courier, monospace; font-size: 20px"><a href="a.html">exit room</a></p>
+            <p style = "text-align: center;font-family: 'Courier New', Courier, monospace; font-size: 20px"><a href="index.html">directory</a></p>
+    </div>
+
+    <script>
+        function openLeftMenu() {
+            document.getElementById("leftMenu").style.display = "block";
+        }
+        function closeLeftMenu() {
+            document.getElementById("leftMenu").style.display = "none";
+        }
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+
+
+
+    </script>
+</body>
+
+</html>
