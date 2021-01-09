@@ -18,23 +18,33 @@
     display: block;
     padding: 8px 16px;
     text-align: left;
+
     border: none;
     outline: none;
     white-space: normal;
     float: none;
 }
 
+#wrapper_2 {
+    margin: auto;
+    width: 100%;
+    max-width: 720px;
+}
+
 .door1 {
     background-size: contain;
     background: url("logos/door-01.png") no-repeat;
-    height: 300px;
-    width: 200px;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    padding-left: 15%;
+    padding-right: 15%;
     background-size: contain;
+    text-decoration: none;
 }
 
 .door1:hover {
     background: url("logos/door2.png") no-repeat;
-    background-size: contain
+    background-size: contain;
 }
 
 .w3-large {
@@ -132,6 +142,7 @@
     height: 1000px;
     background-color: transparent;
     position: fixed;
+    font-family: 'Courier New', Courier, monospace;
     z-index: 2;
     display: inline-block;
 }

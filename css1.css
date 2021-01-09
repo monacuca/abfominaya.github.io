@@ -115,6 +115,7 @@ img {
     width: 80px;
     background-color: transparent;
     position: fixed;
+    font-family: 'Courier New', Courier, monospace;
     z-index: 2;
     display: inline-block;
 }
