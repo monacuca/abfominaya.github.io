@@ -120,7 +120,25 @@ img {
     z-index: 2;
     display: inline-block;
 }
+#statement {
+    max-width: 600px;
+    margin: auto;
+    font-size: 15px;
+    text-align: left;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
 
+#statement img {
+    width: 100%;
+    border-style: dotted;
+    border-width: thin;
+    color: black;
+}
+
+#statement img:hover {
+    border-style: solid;
+}
 #mid {
     width: 500px;
     height: auto;
