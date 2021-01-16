@@ -1,0 +1,275 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="W3.CSS">
+  <link rel="stylesheet" type="text/css" href="css1.css">
+
+  <title>Angelica Bonilla</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <style>
+        #clicky{
+            border: none;
+            font-family: monospace; 
+            font-size: 14px;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+        #MyDIV{
+            display:none;
+        }
+    </style>
+
+  <div id="sidebar">
+    <div id="sidebar2">
+      <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none " id="leftMenu" width="90px">
+        <button onclick="closeLeftMenu()" class="w3-bar-item w3-button w3-large w3-black"> <span
+            style="font-size: 30px">
+            <div class="ex">
+              <center>&times;</center>
+            </div>
+          </span></button><br>
+        <center> <a href="pageone.html" title="home"><img src="logos/whiteablogo-01.png" alt="Smiley face"
+              height="130"></a></center>
+        &nbsp;&nbsp;&nbsp;<span style="font-family: courier; font-size: 20px">...| <br> &nbsp;&nbsp;&nbsp;.....|</span>
+        <br>
+        <br>
+        <span style="font-family: courier, monospace;"><button class="accordion">Non-Code_</button>
+          <div class="panel">
+            <a href="art_projects.html" class="w3-bar-item w3-button">>.Projects</a><a href="illustration.html"
+              class="w3-bar-item w3-button">>.Illustration</a>
+            <a href="pre2019art.html" class="w3-bar-item w3-button">>.Pre-2019 Art</a>
+          </div>
+
+          <button class="accordion">Code_</button>
+          <div class="panel">
+            <a href="websites.html" class="w3-bar-item w3-button">>.Websites</a><a href="projects.html"
+              class="w3-bar-item w3-button">>.Projects</a>
+          </div>
+          <button class="accordion">About_</button>
+          <div class="panel">
+            <a href="contact.html" class="w3-bar-item w3-button">>.Contact</a><a href="statement.html"
+              class="w3-bar-item w3-button">>.Statement</a><a href="resume.html"
+              class="w3-bar-item w3-button">>.Resume</a>
+          </div>
+        </span>
+        <br>
+        <br>
+      </div>
+
+
+
+
+      <div class="w3-black">
+        <span style="font-size: 1000px"> <button class="w3-button w3-black w3-xxxlarge w3-left"
+            onclick="openLeftMenu()">&#9710;</button></span>
+      </div>
+
+    </div>
+  </div>
+  <div id="wrapper">
+    <div id="text">
+        <center><span style="font-family: monospace; font-size: 30px">...
+        </span></center>
+    <div id="welcome">a. b. fominaya</div>
+
+    <span style="font-family: monospace; font-size: 14px">Ten minutes in the 90's<br> 2020. Javascript. <br> 
+    <br>
+    <div id="statement">
+    <img src="clock/410.gif" width="100%" style="border: none;"></div>
+    <div id="holder">
+      <div id="order">
+        <div class="row">
+          <div class="column">
+
+            <img src="clock/824.png" style="height:150px" onclick="openModal();currentSlide(1)"
+              class="hover-shadow cursor">
+          </div>
+          <div class="column">
+            <img src="clock/826.png" style="height:150px" onclick="openModal();currentSlide(2)"
+              class="hover-shadow cursor">
+          </div>
+          <div class="column">
+            <img src="clock/959.png" style="height:150px" onclick="openModal();currentSlide(3)"
+              class="hover-shadow cursor">
+          </div>
+
+          </div>
+
+          <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+
+              <div class="mySlides">
+
+                <img src="clock/824.png">
+              </div>
+
+              <div class="mySlides">
+
+                <img src="clock/826.png">
+              </div>
+
+              <div class="mySlides">
+
+                <img src="clock/959.png">
+              </div>
+
+             
+
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div class="caption-container">
+              <p id="caption"></p>
+            </div>
+
+
+            <div class="column">
+              <img class="demo cursor" src="clock/824.png" style="height: 100PX" onclick="currentSlide(1)" alt="8:24">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="clock/826.png" style="height: 100PX" onclick="currentSlide(2)" alt="8:26">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="clock/959.png" style="height: 100PX" onclick="currentSlide(3)" alt="9:59">
+            </div>
+
+          </div>
+        </div>
+      </div>
+    <div id="statement">
+      
+<br>
+<br>
+This was an experience for me to make, as I went through hundreds of testimonies
+ of victims (or their families) who suffered from the violence from the Colombian military,
+  to the ELN, to the different paramilitary groups, to the FARC and female victims of assault 
+  through the different periods of armed conflict. I have done a lot of projects recently on the idea of constructing archives and stories,
+   and something that has been on my mind a lot recently is the lived experiences of victims and the numerical definitions of massacre and collective trauma. 
+   So in this project, I created a clock that through the period of ten minutes, displays a unique version of these stories. To be able to view this clock, 
+   the left-most side displays the current minute represented by the number of words, the middle column represents the ten’s place digit of the seconds 
+   (thus it changes every 10 seconds) and the rightmost column represents the one’s digit.
+<br>
+<br>
+The hardest part of this piece was trying to find a way of approaching this sensitive topic 
+in a proper and respectful way, I translated a lot of the anecdotes at first quite literally,
+ but many of the stories were violent and incredibly difficult to digest. There is also often 
+ a difficulty in trying to describe the violence that exists in Latin America without make it 
+ the defining quality of these nations. It often feels like as a Colombian, so many of our 
+ conversations are focused on avoiding the armed conflict as a topic, it felt uncomfortable 
+ to make this piece but I still made it because it is a very real struggle for many, and 
+ for those who live it every day through memories.
+<br><br>
+        <center>
+        <span style="font-family: monospace; font-size: 14px"><a href="https://ten-minutes.glitch.me/">View on Glitch</a></span>
+        </center>
+<!-- Copy and Paste Me -->
+<div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+  <iframe
+    src="https://glitch.com/embed/#!/embed/ten-minutes?path=sketch.js&previewSize=100&attributionHidden=true"
+    title="ten-minutes on Glitch"
+    allow="geolocation; microphone; camera; midi; vr; encrypted-media"
+    style="height: 100%; width: 100%; border: 0;">
+  </iframe>
+</div>
+  </div>
+       
+        </div>
+     
+
+
+    
+        
+        <p style = "text-align: center;font-family: 'Courier New', Courier, monospace; font-size: 30px">...</p>
+        <p style = "text-align: center;font-family: 'Courier New', Courier, monospace; font-size: 20px"><a href="projects.html">exit room (back to code projects)</a></p>
+        <p style = "text-align: center;font-family: 'Courier New', Courier, monospace; font-size: 20px"><a href="art_projects.html">exit room (back to art projects)</a></p>
+            <p style = "text-align: center;font-family: 'Courier New', Courier, monospace; font-size: 20px"><a href="index.html">directory</a></p>
+      </div>
+
+
+      <script>
+        function openLeftMenu() {
+          document.getElementById("leftMenu").style.display = "block";
+        }
+        function closeLeftMenu() {
+          document.getElementById("leftMenu").style.display = "none";
+        }
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+
+
+
+      </script>
+      <script>
+        function openModal() {
+          document.getElementById('myModal').style.display = "block";
+        }
+
+        function closeModal() {
+          document.getElementById('myModal').style.display = "none";
+        }
+
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("demo");
+          var captionText = document.getElementById("caption");
+          if (n > slides.length) { slideIndex = 1 }
+          if (n < 1) { slideIndex = slides.length }
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex - 1].style.display = "block";
+          dots[slideIndex - 1].className += " active";
+          captionText.innerHTML = dots[slideIndex - 1].alt;
+        }
+      </script>
+        <script>
+
+            function myFunction(myDIV) {
+                var x = document.getElementById(myDIV);
+
+                
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                
+                } else {
+                    x.style.display = "block";
+                }
+               
+            }
+        </script>
+</body>
+
+</html>
