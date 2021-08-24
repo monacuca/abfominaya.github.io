@@ -48,7 +48,7 @@
     margin-left: 150px;
 }
 #capt{
-    font-family: 'Courier New', Courier, monospace; 
+    font-family: monospace,'Courier New', Courier; 
     float: right;
     text-align: right; 
     font-size: 12px;
@@ -181,7 +181,7 @@
     width: 80px;
     background-color: transparent;
     position: fixed;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: monospace,'Courier New', Courier;
     z-index: 2;
     display: inline-block;
 }
