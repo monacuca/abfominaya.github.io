@@ -1,0 +1,449 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="W3.CSS">
+    <link rel="stylesheet" type="text/css" href="css1.css">
+
+    <title>Angelica Bonilla</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <style>
+        #clicky {
+            border: none;
+            font-family: monospace;
+            font-size: 14px;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+        
+        #MyDIV {
+            display: none;
+        }
+    </style>
+
+    <div id="sidebar">
+        <div id="sidebar2">
+            <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none " id="leftMenu" width="90px">
+                <button onclick="closeLeftMenu()" class="w3-bar-item w3-button w3-large w3-black"> <span
+                  style="font-size: 30px">
+                  <div class="ex">
+                      <center>&times;</center>
+                  </div>
+              </span></button><br>
+                <center>
+                    <a href="pageone.html" title="home"><img src="logos/whiteablogo-01.png" alt="Smiley face" height="130"></a>
+                </center>
+                &nbsp;&nbsp;&nbsp;<span style="font-family: courier; font-size: 20px">...| <br>
+              &nbsp;&nbsp;&nbsp;.....|</span>
+                <br>
+                <br>
+                <span style="font-family: courier, monospace;"><button class="accordion">Traditional_</button>
+              <div class="panel">
+                  <a href="art_projects.html" class="w3-bar-item w3-button">>.Projects</a><a
+                      href="illustration.html" class="w3-bar-item w3-button">>.Illustration</a>
+                  <a href="pre2019art.html" class="w3-bar-item w3-button">>.Pre-2019 Art</a>
+              </div>
+
+              <button class="accordion">Code_</button>
+              <div class="panel">
+                  <a href="websites.html" class="w3-bar-item w3-button">>.Websites</a><a href="projects.html"
+                      class="w3-bar-item w3-button">>.Projects</a>
+              </div>
+              <button class="accordion">About_</button>
+              <div class="panel">
+                  <a href="contact.html" class="w3-bar-item w3-button">>.Contact</a><a href="statement.html"
+                      class="w3-bar-item w3-button">>.Statement</a><a href="resume.html"
+                      class="w3-bar-item w3-button">>.Resume</a>
+              </div>
+          </span>
+                <br>
+                <br>
+            </div>
+
+
+
+
+            <div class="w3-black">
+                <span style="font-size: 1000px"> <button class="w3-button w3-black w3-xxxlarge w3-left"
+                  onclick="openLeftMenu()">&#9710;</button></span>
+            </div>
+
+        </div>
+    </div>
+    <div id="wrapper">
+        <div id="text">
+            <center><span style="font-family: monospace; font-size: 30px">...
+        </span></center>
+            <div id="welcome">a. b. fominaya</div>
+
+            <span style="font-family: monospace; font-size: 14px">El Violador Eres Tu<br> 2021. Etching / Animation. <br> 
+    <br>
+    <div id="statement">
+      <span style="display: inline-block; width: 100%">
+        <center>
+      <img src="elvioladorerestu/ElVioladorEresTu.gif" style="max-width: 100%; border: none;">
+    </center>
+    </span>
+
+            <br>
+            <br>
+            <br> For this project, there were two main topics I wanted to research and integrate. First, I wanted to examine how movements spread and communicate, specifically in the context of Latin American feminism. I also wanted to explore the intimacy
+            of printmaking, its purpose in spreading information, and how this could be integrated with algorithmic processes as a bridge of two distinct languages. I began this project by parsing through hundreds of videos of modern-day protest performances
+            in various Latin American cities, many of these performances utilized simple choreographies and lyrics that allowed for easy transmission of the movement itself. These videos originated as a response to various global issues for women, from
+            femicide and rape to the treatment of women in online settings.
+            <br>
+            <br> I found that the transmission of information in each video was evocative in the same way prints and written pieces that kickstarted social movements were evocative. My goal at first was to aggregate the content in these videos into new
+            messages, where each print displayed a different frame of a found video with a distinct call to action in lieu of the lyrics. I made different types of text generators, from Markov Chains to Tracery grammars and traditional generative text
+            methods.
+            <br>
+            <br> As I iterated this process, I began to focus more on the lyrical quality of specific videos and I kept coming back to “Un Violador En Tu Camino” (A Rapist in Your Path) by Chilean collective Colectivo Las Tesis. This video was incredibly
+            striking to me by the raw power it had in mobilizing people and enacting change, despite being a simple (non-violent) communal performance. As such, I sourced my videos and text from this specific work and moved my project towards an adaptation
+            of this video removing the use of generative text. Using the traditional language in printmaking, I decided to frame each print as a work of art, with the lyrics presented as a title in an editorial print. These prints then got converted into
+            a gif, recontextualizing them in a digital space.
+            <br>
+            <br>
+            <br>
+
+            <center>
+                <span style="font-family: monospace; font-size: 14px"> Variants </span>
+            </center>
+
+        </div>
+
+
+
+
+    </div>
+    <div id="holder">
+        <div id="order">
+            <div class="row">
+                <div class="column">
+
+                    <img src="elvioladorerestu/ElVioladorEresTu (1).png" style="height:150px" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="elvioladorerestu/ElVioladorEresTu (2).png" style="height:150px" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="elvioladorerestu/ElVioladorEresTu (3).png" style="height:150px" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="elvioladorerestu/ElVioladorEresTu (4).png" style="height:150px" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="elvioladorerestu/ElVioladorEresTu (5).png" style="height:150px" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="elvioladorerestu/ElVioladorEresTu (6).png" style="height:150px" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="elvioladorerestu/ElVioladorEresTu (7).png" style="height:150px" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="elvioladorerestu/ElVioladorEresTu (8).png" style="height:150px" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="elvioladorerestu/ElVioladorEresTu (9).png" style="height:150px" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+
+                    <img src="elvioladorerestu/ElVioladorEresTu (10).png" style="height:150px" onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+
+                    <img src="elvioladorerestu/ElVioladorEresTu (11).png" style="height:150px" onclick="openModal();currentSlide(11)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="elvioladorerestu/ElVioladorEresTu (12).png" style="height:150px" onclick="openModal();currentSlide(12)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="elvioladorerestu/ElVioladorEresTu (13).png" style="height:150px" onclick="openModal();currentSlide(13)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="elvioladorerestu/ElVioladorEresTu (14).png" style="height:150px" onclick="openModal();currentSlide(14)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="elvioladorerestu/ElVioladorEresTu (15).png" style="height:150px" onclick="openModal();currentSlide(15)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="elvioladorerestu/ElVioladorEresTu (16).png" style="height:150px" onclick="openModal();currentSlide(16)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="elvioladorerestu/ElVioladorEresTu (17).png" style="height:150px" onclick="openModal();currentSlide(17)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="elvioladorerestu/ElVioladorEresTu (18).png" style="height:150px" onclick="openModal();currentSlide(18)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="elvioladorerestu/ElVioladorEresTu (19).png" style="height:150px" onclick="openModal();currentSlide(19)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="elvioladorerestu/ElVioladorEresTu (20).png" style="height:150px" onclick="openModal();currentSlide(20)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="elvioladorerestu/ElVioladorEresTu (21).png" style="height:150px" onclick="openModal();currentSlide(21)" class="hover-shadow cursor">
+                </div>
+            </div>
+
+
+            <div id="myModal" class="modal">
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div class="modal-content">
+
+                    <div class="mySlides">
+
+                        <img src="elvioladorerestu/ElVioladorEresTu (1).png">
+                    </div>
+
+                    <div class="mySlides">
+
+                        <img src="elvioladorerestu/ElVioladorEresTu (2).png">
+                    </div>
+
+                    <div class="mySlides">
+
+                        <img src="elvioladorerestu/ElVioladorEresTu (3).png">
+                    </div>
+
+                    <div class="mySlides">
+
+                        <img src="elvioladorerestu/ElVioladorEresTu (4).png">
+                    </div>
+                    <div class="mySlides">
+
+                        <img src="elvioladorerestu/ElVioladorEresTu (5).png">
+                    </div>
+                    <div class="mySlides">
+
+                        <img src="elvioladorerestu/ElVioladorEresTu (6).png">
+                    </div>
+                    <div class="mySlides">
+
+                        <img src="elvioladorerestu/ElVioladorEresTu (7).png">
+                    </div>
+                    <div class="mySlides">
+
+                        <img src="elvioladorerestu/ElVioladorEresTu (8).png">
+                    </div>
+                    <div class="mySlides">
+
+                        <img src="elvioladorerestu/ElVioladorEresTu (9).png">
+                    </div>
+                    <div class="mySlides">
+
+                        <img src="elvioladorerestu/ElVioladorEresTu (10).png">
+                    </div>
+                    <div class="mySlides">
+
+                        <img src="elvioladorerestu/ElVioladorEresTu (11).png">
+                    </div>
+
+                    <div class="mySlides">
+
+                        <img src="elvioladorerestu/ElVioladorEresTu (12).png">
+                    </div>
+
+                    <div class="mySlides">
+
+                        <img src="elvioladorerestu/ElVioladorEresTu (13).png">
+                    </div>
+
+                    <div class="mySlides">
+
+                        <img src="elvioladorerestu/ElVioladorEresTu (14).png">
+                    </div>
+                    <div class="mySlides">
+
+                        <img src="elvioladorerestu/ElVioladorEresTu (15).png">
+                    </div>
+                    <div class="mySlides">
+
+                        <img src="elvioladorerestu/ElVioladorEresTu (16).png">
+                    </div>
+                    <div class="mySlides">
+
+                        <img src="elvioladorerestu/ElVioladorEresTu (17).png">
+                    </div>
+                    <div class="mySlides">
+
+                        <img src="elvioladorerestu/ElVioladorEresTu (18).png">
+                    </div>
+                    <div class="mySlides">
+
+                        <img src="elvioladorerestu/ElVioladorEresTu (19).png">
+                    </div>
+                    <div class="mySlides">
+
+                        <img src="elvioladorerestu/ElVioladorEresTu (20).png">
+                    </div>
+                    <div class="mySlides">
+
+                        <img src="elvioladorerestu/ElVioladorEresTu (21).png">
+                    </div>
+
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="elvioladorerestu/ElVioladorEresTu (1).png" style="height: 100PX" onclick="currentSlide(1)" alt="1/21">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="elvioladorerestu/ElVioladorEresTu (2).png" style="height: 100PX" onclick="currentSlide(2)" alt="2/21">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="elvioladorerestu/ElVioladorEresTu (3).png" style="height: 100PX" onclick="currentSlide(3)" alt="3/21">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="elvioladorerestu/ElVioladorEresTu (4).png" style="height: 100PX" onclick="currentSlide(4)" alt="4/21">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="elvioladorerestu/ElVioladorEresTu (5).png" style="height: 100PX" onclick="currentSlide(5)" alt="5/21">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="elvioladorerestu/ElVioladorEresTu (6).png" style="height: 100PX" onclick="currentSlide(6)" alt="6/21">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="elvioladorerestu/ElVioladorEresTu (7).png" style="height: 100PX" onclick="currentSlide(7)" alt="7/21">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="elvioladorerestu/ElVioladorEresTu (8).png" style="height: 100PX" onclick="currentSlide(8)" alt="8/21">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="elvioladorerestu/ElVioladorEresTu (9).png" style="height: 100PX" onclick="currentSlide(9)" alt="9/21">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="elvioladorerestu/ElVioladorEresTu (10).png" style="height: 100PX" onclick="currentSlide(10)" alt="10/21">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="elvioladorerestu/ElVioladorEresTu (11).png" style="height: 100PX" onclick="currentSlide(11)" alt="11/21">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="elvioladorerestu/ElVioladorEresTu (12).png" style="height: 100PX" onclick="currentSlide(12)" alt="12/21">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="elvioladorerestu/ElVioladorEresTu (13).png" style="height: 100PX" onclick="currentSlide(13)" alt="13/21">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="elvioladorerestu/ElVioladorEresTu (14).png" style="height: 100PX" onclick="currentSlide(14)" alt="14/21">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="elvioladorerestu/ElVioladorEresTu (15).png" style="height: 100PX" onclick="currentSlide(15)" alt="15/21">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="elvioladorerestu/ElVioladorEresTu (16).png" style="height: 100PX" onclick="currentSlide(16)" alt="16/21">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="elvioladorerestu/ElVioladorEresTu (17).png" style="height: 100PX" onclick="currentSlide(17)" alt="17/21">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="elvioladorerestu/ElVioladorEresTu (18).png" style="height: 100PX" onclick="currentSlide(18)" alt="18/21">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="elvioladorerestu/ElVioladorEresTu (19).png" style="height: 100PX" onclick="currentSlide(19)" alt="19/21">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="elvioladorerestu/ElVioladorEresTu (20).png" style="height: 100PX" onclick="currentSlide(20)" alt="20/21">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="elvioladorerestu/ElVioladorEresTu (21).png" style="height: 100PX" onclick="currentSlide(21)" alt="21/21">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <p style="text-align: center;font-family: 'Courier New', Courier, monospace; font-size: 30px">...</p>
+    <p style="text-align: center;font-family: 'Courier New', Courier, monospace; font-size: 20px"><a href="art_projects.html">exit room</a></p>
+    <p style="text-align: center;font-family: 'Courier New', Courier, monospace; font-size: 20px"><a href="index.html">directory</a></p>
+
+
+
+    <script>
+        function openLeftMenu() {
+            document.getElementById("leftMenu").style.display = "block";
+        }
+
+        function closeLeftMenu() {
+            document.getElementById("leftMenu").style.display = "none";
+        }
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+    </script>
+    <script>
+        function openModal() {
+            document.getElementById('myModal').style.display = "block";
+        }
+
+        function closeModal() {
+            document.getElementById('myModal').style.display = "none";
+        }
+
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            var captionText = document.getElementById("caption");
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            captionText.innerHTML = dots[slideIndex - 1].alt;
+        }
+    </script>
+    <script>
+        function myFunction(myDIV) {
+            var x = document.getElementById(myDIV);
+
+
+            if (x.style.display === "block") {
+                x.style.display = "none";
+
+            } else {
+                x.style.display = "block";
+            }
+
+        }
+    </script>
+</body>
+
+</html>
