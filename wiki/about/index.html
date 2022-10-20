@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="../../W3.CSS">
+        <link rel="stylesheet" type="text/css" href="../../css.css">
+    </head>
+    <title>Angelica Bonilla Fominaya</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style type="text/css">
+    
+</style>
+<body>
+ 
+    <div id="sidebar">
+        <div id="sidebar2">
+            <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none " id="leftMenu" width="90px">
+                <button onclick="closeLeftMenu()" class="w3-bar-item w3-button w3-large w3-black"> <span
+                        style="font-size: 30px">
+                        <div class="ex">
+                            <center>&times;</center>
+                        </div>
+                    </span></button><br>
+                <center>
+                    <a href="../../index.html" title="home"><img src="../../logos/whiteablogo-01.png" alt="Smiley face" height="130"></a>
+                </center>
+                <br>
+                <br>
+                <span style="font-family: courier, monospace;"><button class="accordion">Projects_</button>
+                    <div class="panel">
+                        <a href="../../projects/index.html" class="w3-bar-item w3-button">>.Projects</a>
+                        <a href="../../illustration/index.html" class="w3-bar-item w3-button">>.Illustration</a>
+                    </div>
+                    <button class="accordion">About_</button>
+                    <div class="panel">
+                        <a href="../../wiki/about/index.html" class="w3-bar-item w3-button">>.About</a>
+                        <a href="../../wiki/contact/index.html" class="w3-bar-item w3-button">>.Contact</a>
+                        <a href="../../wiki/resume/index.html" class="w3-bar-item w3-button">>.Resume</a>
+                    </div>
+                </span>
+                <br>
+                <br>
+            </div>
+            <div class="w3-black">
+                <span style="font-size: 1000px"> <button class="w3-button w3-black w3-xxxlarge w3-left"
+                        onclick="openLeftMenu()">&#9710;</button></span>
+            </div>
+        </div>
+    </div>
+<div id="wrapper">
+    <center><span style="font-family: monospace; font-size: 30px">...
+        </span></center>
+    <div id= "welcome">a. b. fominaya</div>
+  
+    <span style="font-family: monospace; font-size: 14px">about me/artist statement<br></span>
+    <br>
+    <div id = "statement">
+    My name is Angelica Bonilla (A. B.) Fominaya and I am an artist, engineer and scientist studying <b>Computer Science and Art</b> at Carnegie Mellon University where I am playing with robots, making comics and sending AR applications to the Moon. <br><br>
+    In here you can find some of my projects, art and programming (and everything in between).  <br>
+
+    <br>This is a homemade website. 
+    </div>
+
+    <p style = "text-align: center;font-family: 'Courier New', Courier, monospace; font-size: 30px">...</p></div>
+    
+<script>
+function openLeftMenu() {
+    document.getElementById("leftMenu").style.display = "block";
+}
+function closeLeftMenu() {
+    document.getElementById("leftMenu").style.display = "none";
+}
+    var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
+}
+
+
+  
+                               </script>
+</body>
+</html>
+
+        

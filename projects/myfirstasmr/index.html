@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="../../W3.CSS">
+    <link rel="stylesheet" type="text/css" href="../../css1.css">
+</head>
+<title>Angelica Bonilla Fominaya</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+<body>
+    <style>
+        #clicky{
+            border: none;
+            font-family: monospace; 
+            font-size: 14px;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+        #MyDIV{
+            display:none;
+        }
+    </style>
+
+<div id="sidebar">
+  <div id="sidebar2">
+      <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none " id="leftMenu" width="90px">
+          <button onclick="closeLeftMenu()" class="w3-bar-item w3-button w3-large w3-black"> <span
+                  style="font-size: 30px">
+                  <div class="ex">
+                      <center>&times;</center>
+                  </div>
+              </span></button><br>
+          <center>
+              <a href="../../index.html" title="home"><img src="../../logos/whiteablogo-01.png" alt="Smiley face" height="130"></a>
+          </center>
+          <br>
+          <br>
+          <span style="font-family: courier, monospace;"><button class="accordion">Projects_</button>
+              <div class="panel">
+                  <a href="../../projects/index.html" class="w3-bar-item w3-button">>.Projects</a>
+                  <a href="../../illustration/index.html" class="w3-bar-item w3-button">>.Illustration</a>
+              </div>
+              <button class="accordion">About_</button>
+              <div class="panel">
+                  <a href="../../wiki/about/index.html" class="w3-bar-item w3-button">>.About</a>
+                  <a href="../../wiki/contact/index.html" class="w3-bar-item w3-button">>.Contact</a>
+                  <a href="../../wiki/resume/index.html" class="w3-bar-item w3-button">>.Resume</a>
+              </div>
+          </span>
+          <br>
+          <br>
+      </div>
+      <div class="w3-black">
+          <span style="font-size: 1000px"> <button class="w3-button w3-black w3-xxxlarge w3-left"
+                  onclick="openLeftMenu()">&#9710;</button></span>
+      </div>
+  </div>
+</div>
+  <div id="wrapper">
+    <div id="text">
+        <center><span style="font-family: monospace; font-size: 30px">...
+        </span></center>
+    <div id="welcome">a. b. fominaya</div>
+
+    <span style="font-family: monospace; font-size: 14px">My First ASMR<br> 2022. Video. <br> 
+    <br>
+    <div id="statement">
+      <iframe width="100%"  height="315" src="https://www.youtube.com/embed/gSDNW13OfWc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <br>
+<br>
+
+<center>(For the best experience, please wear headphones)</center>
+<br><br>
+For this project, I was interested in exploring the variation that exists through the sensory experiences of different human beings. As someone who is rather sensitive to sound due to misophonia, I was interested in how different people react to different unusual sounds. For example, chewing sounds might be appealing to someone who experiences ASMR or absolutely distressing (and even enraging) for someone who has misphonia.  Most people lie somewhere in between these two experiences, and through their faces they reveal a lot about how they experience these distinct auditory inputs.
+<br>
+<br>
+Throughout multiple iterations of this project, I was interested in exploring the variety that exists in human emotions-- whether they be my own or someone else's. Upon exploring auditory input, I was introduced to this project by Olivia Cunnally, which captures Grima — a mostly universal response to deeply unsettling sounds. Since sound is something I struggle with, I decided to double down on this idea.
+<br>
+<br>
+To create this project, I had to first generate the audio using a 3Dio Binaural microphone. This binaural microphone accurately places auditory input in 3D space, making it feel like sounds are either close or further from you. With a combination of hand sanitizer, water, my mouth and pin, I was able to generate an array of sounds to sample from. I ended up with approximately 30 minutes of audio. I then chose the most disturbing audio samples (through the feedback of my friends Bella and Lauren) and used them to create a 5 minute video.
+<br>
+<br>
+I then recorded various reactions from unsuspecting participants using my phone's 240 fps slow-motion camera. I told each person that they would be listening to 5 minutes of potentially distressing audio and that I would be recording their reactions. Finally, I compiled 12 of the video reactions I recorded into a 4 x 3 grid with their reactions synchronized to the audio. The video and audio were slowed down by a factor of 0.5, to make expressions more dramatic.
+<br>
+<br>
+Overall, I am very pleased with how this project turned out. I am not someone who regularly works either with video or audio, so I know there is a lot of room for improvement in how I conducted my project. First, I think there might be a couple of points where the video isn't perfectly synchronized to the audio.  I think this is due to me synchronizing the videos using the original audio of the video clips themselves (via a click) and joining them. Instead I should've used visual cues to make this easier for myself (having people clap, for instance).  I do think this is something I can revise, but I have been having issues with the size of my project, so exporting and editing has been taking a very long time (I will not use Lightworks again). In the end, I am still very pleased with the final outcome but I have learned to be more cognizant of my videography for the future!<br>
+<br>
+    </div>
+    </div>
+  </div>
+
+<p style = "text-align: center;font-family: 'Courier New', Courier, monospace; font-size: 30px">...</p>
+</body>
+<script>
+    function openLeftMenu() {
+      document.getElementById("leftMenu").style.display = "block";
+    }
+    function closeLeftMenu() {
+      document.getElementById("leftMenu").style.display = "none";
+    }
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+
+
+
+  </script>
+
+</html>
