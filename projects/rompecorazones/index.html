@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="../../W3.CSS">
+    <link rel="stylesheet" type="text/css" href="../../css1.css">
+</head>
+<title>Angelica Bonilla Fominaya</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+<body>
+    <style>
+        #clicky{
+            border: none;
+            font-family: monospace; 
+            font-size: 14px;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+        #MyDIV{
+            display:none;
+        }
+    </style>
+
+<div id="sidebar">
+  <div id="sidebar2">
+      <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none " id="leftMenu" width="90px">
+          <button onclick="closeLeftMenu()" class="w3-bar-item w3-button w3-large w3-black"> <span
+                  style="font-size: 30px">
+                  <div class="ex">
+                      <center>&times;</center>
+                  </div>
+              </span></button><br>
+          <center>
+              <a href="../../" title="home"><img src="../../logos/whiteablogo-01.png" alt="Smiley face" height="130"></a>
+          </center>
+          <br>
+          <br>
+          <span style="font-family: courier, monospace;"><button class="accordion">Projects_</button>
+              <div class="panel">
+                  <a href="../../news/" class="w3-bar-item w3-button">>.Press/News</a>
+                  <a href="../../featured/" class="w3-bar-item w3-button">>.Featured Projects</a>
+                  <a href="../../projects/" class="w3-bar-item w3-button">>.All Projects</a>
+                  <a href="../../illustration/" class="w3-bar-item w3-button">>.Illustration</a>
+              </div>
+              <button class="accordion">About_</button>
+              <div class="panel">
+                  <a href="../../wiki/about/" class="w3-bar-item w3-button">>.About</a>
+                  <a href="../../wiki/contact/" class="w3-bar-item w3-button">>.Contact</a>
+                  <a href="../../wiki/resume/" class="w3-bar-item w3-button">>.Resume</a>
+              </div>
+          </span>
+          <br>
+          <br>
+      </div>
+      <div class="w3-black">
+          <span style="font-size: 1000px"> <button class="w3-button w3-black w3-xxxlarge w3-left"
+                  onclick="openLeftMenu()">&#9710;</button></span>
+      </div>
+  </div>
+</div>
+  <div id="wrapper">
+    <div id="text">
+        <center><span style="font-family: monospace; font-size: 30px">...
+        </span></center>
+    <div id="welcome">A. B. Fominaya</div>
+
+    <span style="font-family: monospace; font-size: 14px">Rompecorazones<br> 2022. Video. <br> 
+    <br>
+    <div id="statement">
+        <iframe width="100%"  height="315" src="https://www.youtube.com/embed/pIh6VeSF5SY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br>
+<br>
+This project is a piece that contextualizes my failure in attempting to have a robot dance with me.
+<br><br>
+My goal, at its core, was creating a robotic interaction that would follow me as I moved or danced with it. But I wasn't able to get quite there. I spent roughly 2 months continuously debugging a UR5 Cobot (Collaborative Robot), as I attempted to have it follow my face in real time.  Using Handsfree.js, Python and a couple of dozen cups of coffee, I was able to partially achieve this daunting task. Without getting too much into the technical implementation of my robotic interactions, I had a lot of issues wrapping my head around different SDK's and networking protocols for communicating with the robot with my computer. It's not easy to make code for the robot to move, but it's even harder to do so remotely from your computer. So I spent a lot of time trying to figure out how these pieces went together. I eventually hacked it, but I realized that to get to a step where the robot would be able to move smoothly with me, would take a lot more time and effort than I had. At this point I had grown bitter with the robot, verbally abusing it every time I could. Because I knew it would never be good enough to properly dance with me at this rate.
+<br><br>
+Needless to say, this piece as a whole is a testament to the technical failures that I experienced, technical failures that made me reconsider my position as a technologist. This piece was the process of coming to terms with my lack of technical expertise, but it is also a testament to my learning and a love letter to my culture and my language.
+<br><br>
+This work was exhibited in the Carnegie Mellons' Experimental Capture Final Exhibition.
+<br><br>
+Special thanks to Oz Ramos, Mikey Cao and Madelinne Gannon. 
+</div>
+    </div>
+  </div>
+
+<p style = "text-align: center;font-family: 'Courier New', Courier, monospace; font-size: 30px">...</p>
+</body>
+<script>
+    function openLeftMenu() {
+      document.getElementById("leftMenu").style.display = "block";
+    }
+    function closeLeftMenu() {
+      document.getElementById("leftMenu").style.display = "none";
+    }
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+
+
+
+  </script>
+
+</html>
