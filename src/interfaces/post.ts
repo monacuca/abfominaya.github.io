@@ -1,4 +1,5 @@
 import { type Author } from "./author";
+import { CarrouselImage } from "./carrousel_image";
 
 export type Post = {
   slug: string;
@@ -11,5 +12,9 @@ export type Post = {
     url: string;
   };
   content: string;
+  carrouselImages: CarrouselImage[];
+  tags: string[];
+  mediaType: string;
+  video: string;
   preview?: boolean;
 };

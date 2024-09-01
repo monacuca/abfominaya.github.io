@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.coverimg {
+  height: auto;
+}
+.coverimg img {
+  max-height: 400px;
+  height: auto;
+  margin: auto;
+  width: auto;
+}
+.post-box {
+  padding-left: 5%;
+  padding-top: 2%;
+}
+.search {
+  margin-top: 15px;
+  margin-bottom: 25px;
+  padding: 5px;
+  width: auto;
+  height: auto;
+  border: 2px grey;
+  display: inline-block;
+  border-style: ridge;
+}
+.tag-suggestions {
+  color: grey;
+  margin-bottom: 15px;
+}
+.tags-box {
+  color: grey;
+  margin-bottom: 15px;
+}
+.header {
+  padding-top: 9%;
+  font-size: 26px;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(0, 0, 0);
+  font-style: italic;
+}
+.author-name{
+  font-size: 26px;
+  font-family: serif;
+}
+.preview-title {
+  font-size: 26px;
+  font-family: 'serif';
+  font-style: italic;
+}
+.headshot {
+  max-height: 200px;
+  padding-bottom: 25px;
+  margin: auto;
+}
+.title {
+  padding-top: 9%;
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+.sub-title {
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+.selector {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+}
+.heading {
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+.container {
+  margin: auto;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.carrousal-container{
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+}
+.lazy__slide {
+  max-height: 600px;
+  height: auto;
+  background: rgb(255, 255, 255);
+  background-image: url("/images/loader.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-size: 100px;
+  padding-bottom: 10px;
+  min-height: auto;
+}
+
+.lazy__slide img {
+  background-color: transparent;
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  position: relative;
+}
+
+.thumbnail .keen-slider__slide {
+  max-height: 100px;
+  width: auto;
+  height: auto;
+  display: inline-block;
+}
+.thumbnail .keen-slider__slide {
+  cursor: pointer;
+}
+.thumbnail .keen-slider__slide.active {
+  border: 2px dashed black;
+}

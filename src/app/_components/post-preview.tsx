@@ -3,6 +3,8 @@ import Link from "next/link";
 import Avatar from "./avatar";
 import CoverImage from "./cover-image";
 import DateFormatter from "./date-formatter";
+import TagsFormatter from "./tags-formatter";
+import "./styles.css";
 
 type Props = {
   title: string;
@@ -10,6 +12,7 @@ type Props = {
   date: string;
   excerpt: string;
   author: Author;
+  tags: string[];
   slug: string;
 };
 
@@ -19,23 +22,26 @@ export function PostPreview({
   date,
   excerpt,
   author,
+  tags,
   slug,
 }: Props) {
   return (
     <div>
       <div className="mb-5">
-        <CoverImage slug={slug} title={title} src={coverImage} />
+        {(coverImage != null) && <CoverImage slug={slug} title={title} src={coverImage} />}
       </div>
-      <h3 className="text-3xl mb-3 leading-snug">
+      <h3 className="preview-title">
         <Link href={`/posts/${slug}`} className="hover:underline">
           {title}
         </Link>
       </h3>
-      <div className="text-lg mb-4">
+      <div className="date-box">
         <DateFormatter dateString={date} />
       </div>
-      <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
-      <Avatar name={author.name} picture={author.picture} />
+      <div className="tags-box">
+          <TagsFormatter tags={tags} />
+        </div>
+      <p className="body">{excerpt}</p>
     </div>
   );
 }
