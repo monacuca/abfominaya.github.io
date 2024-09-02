@@ -19,7 +19,7 @@ export function Blog({ posts }: Props) {
     //Our search filter function
     const searchFilter = (entries :any) => {
       return entries.filter(
-        (entry : any) => entry.tags.toString().includes(query)
+        (entry : any) => entry.tags.toString().includes(query.toLowerCase())
       )
     }
   
@@ -29,7 +29,7 @@ export function Blog({ posts }: Props) {
   return (
     <section>
       <h2 className="heading">
-        <b>Blog Entries</b>
+        Blog Entries
       </h2>
       <div className='search'>
       <input onChange={handleChange} type='text' placeholder='Filter by tags...'/>

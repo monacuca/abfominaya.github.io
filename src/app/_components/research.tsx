@@ -19,7 +19,7 @@ export function Research({ posts }: Props) {
     //Our search filter function
     const searchFilter = (entries :any) => {
       return entries.filter(
-        (entry : any) => entry.tags.toString().includes(query)
+        (entry : any) => entry.tags.toString().includes(query.toLowerCase())
       )
     }
   
