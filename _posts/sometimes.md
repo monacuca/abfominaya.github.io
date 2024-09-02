@@ -2,7 +2,7 @@
 title: "Sometimes"
 excerpt: "Procedural Embroidery"
 coverImage: "/assets/blog/projects/sometimes/2.png"
-date: "20240501"
+date: "20240601"
 author:
   name: Angelica Bonilla (A.B.) Fominaya
   picture: "/assets/blog/authors/abf.png"

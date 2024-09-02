@@ -2,7 +2,7 @@
 title: "Cityscape"
 excerpt: "Procedural Embroidery"
 coverImage: "/assets/blog/projects/cityscape/1.png"
-date: "20240401"
+date: "20240501"
 author:
   name: Angelica Bonilla (A.B.) Fominaya
   picture: "/assets/blog/authors/abf.png"

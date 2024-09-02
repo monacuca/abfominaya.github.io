@@ -21,7 +21,7 @@ mediaType: "art"
 ---
 ## Video
 [(Click here to watch video)](https://www.youtube.com/watch?v=gSDNW13OfWc)
-## About this project:
+## About this project
 (For the best experience, please wear headphones)
 
 For this project, I was interested in exploring the variation that exists through the sensory experiences of different human beings. As someone who is rather sensitive to sound due to misophonia, I was interested in how different people react to different unusual sounds. For example, chewing sounds might be appealing to someone who experiences ASMR or absolutely distressing (and even enraging) for someone who has misphonia.  Most people lie somewhere in between these two experiences, and through their faces they reveal a lot about how they experience these distinct auditory inputs.

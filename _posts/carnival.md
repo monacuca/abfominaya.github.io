@@ -38,6 +38,7 @@ mediaType: "art"
 ---
 ## Video
 [(Click here to watch Carnaval)](https://www.youtube.com/watch?v=WiG3icmRWIo)
+
 [(Click here to watch Colera)](https://www.youtube.com/watch?v=Mrc5dWJmi5Y)
-## About this project:
+## About this project
 This project is a series of performances I made as a reflection on connecting with culture as a member of a diaspora group. Reaching the intangible and imitating from projections through a glass screen.

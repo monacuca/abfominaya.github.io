@@ -1,13 +1,13 @@
 ---
 title: "Recuerdos (Memories)"
 excerpt: "Machine Knit. Knitout"
-coverImage: "/assets/blog/projects/recuerdos/01.png"
+coverImage: "/assets/blog/projects/recuerdos/07.png"
 date: "20230301"
 author:
   name: Angelica Bonilla (A.B.) Fominaya
   picture: "/assets/blog/authors/abf.png"
 ogImage:
-  url: "/assets/blog/projects/recuerdos/01.png"
+  url: "/assets/blog/projects/recuerdos/07.png"
 carrouselImages:
   - key: "01"
     url: "/assets/blog/projects/recuerdos/01.png"

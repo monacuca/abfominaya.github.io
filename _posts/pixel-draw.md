@@ -5,7 +5,7 @@ coverImage: "/assets/blog/projects/pixeldraw/1.jpg"
 date: "20201001"
 author:
   name: Angelica Bonilla (A.B.) Fominaya
-  picture: "/assets/blog/authors/abf.jpg"
+  picture: "/assets/blog/authors/abf.png"
 ogImage:
   url: "/assets/blog/projects/pixeldraw/1.jpg"
 carrouselImages:
@@ -31,6 +31,11 @@ tags: [
 ]
 mediaType: "art"
 ---
+## Video
+[(Click here to learn about Pixel Draw)](https://www.youtube.com/watch?v=vxwGg2pyVTo)
+
+[(Click here to watch full demo)](https://www.youtube.com/watch?v=kG1p9YYAxLI)
+## About this project
 This project is a collaborative pixel environment, 
 where two users get assigned a role of black or white 
 pixels and together they make small drawings or icons.

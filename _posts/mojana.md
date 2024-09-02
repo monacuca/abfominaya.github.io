@@ -23,7 +23,7 @@ mediaType: "art"
 ---
 ## Video
 [(Click here to watch video)](https://www.youtube.com/watch?v=YnAQrLlNefM)
-## About this project:
+## About this project
 This project emerged as an exploration of the complex history of banana 
 cultivation in the Colombian Caribbean. Earlier this semester, I visited 
 this region of Colombia and noticed the subtle ways

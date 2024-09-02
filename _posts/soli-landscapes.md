@@ -24,7 +24,12 @@ tags: [
   "game"
 ]
 mediaType: "art"
----     
+---    
+## Video
+[(Click here to learn about Soli Landscapes)](https://www.youtube.com/watch?v=lEZeEH-T9hI)
+
+[(Click here to see demo)](https://www.youtube.com/watch?v=c84tYWVqRvg)
+## About this project 
 This project is a landscape generator, the idea of it is that a 
 person can go in and traverse through the environment and take images,
  much like a regular person would while sightseeing. A perfect little
