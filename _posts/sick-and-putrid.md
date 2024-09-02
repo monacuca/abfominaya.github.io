@@ -1,6 +1,6 @@
 ---
 title: "This Sick and Putrid World"
-excerpt: "Short Film. Animation/Animatic/Storyboard."
+excerpt: "Short Film. Storyboard."
 coverImage: "/assets/blog/projects/sickandputrid/01.png"
 date: "20200701"
 author:

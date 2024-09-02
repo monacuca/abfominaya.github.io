@@ -13,15 +13,11 @@ export function About({ post }: Props) {
   return (
     <section>
       <h2 className="heading">
-        <b>About</b>
+      About
       </h2>
       <Container>
-      <div className="av">
       <img className="headshot" src={post.author.picture} alt={`Angelica Bonilla Fominaya... Or a close approximation`}/>
-      </div>
-        <article className="mb-32">
-          <PostBody content={content} />
-        </article>
+      <PostBody content={content} />
       </Container>
     </section>
   );

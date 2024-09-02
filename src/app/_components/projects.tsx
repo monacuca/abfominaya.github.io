@@ -29,7 +29,7 @@ export function Projects({ posts }: Props) {
   return (
     <section>
       <h2 className="heading">
-        <b>Projects</b>
+        Projects
       </h2>
       <div className='search'>
       <input onChange={handleChange} type='text' placeholder='Filter by tags...'/>
@@ -46,7 +46,7 @@ export function Projects({ posts }: Props) {
             return accumulator;
             }, []).sort((a,b)=> a.localeCompare(b)).join(", ")}
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-10 lg:gap-x-16 gap-y-10 md:gap-y-32 mb-32">
+      <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-10 lg:gap-x-16 gap-y-10 md:gap-y-32 mb-20">
         {filtered.map((post) => (
           <PostPreview
             key={post.slug}

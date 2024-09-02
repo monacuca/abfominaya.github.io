@@ -73,8 +73,8 @@ export function ImageCarrousel ({ carrouselImages }: Props) {
     {
       initial: 0,
       slides: {
-        perView: 10,
-        spacing: 10,
+        perView: 6,
+        spacing: 0,
       },
     },
     [ThumbnailPlugin(instanceRef)]

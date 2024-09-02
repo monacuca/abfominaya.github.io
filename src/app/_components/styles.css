@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-size: 14px;
   font-family: "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -29,21 +30,23 @@ body {
 }
 .tag-suggestions {
   color: grey;
+  font-size: 12px;
   margin-bottom: 15px;
 }
 .tags-box {
   color: grey;
+  font-size: 12px;
   margin-bottom: 15px;
 }
 .header {
   padding-top: 9%;
-  font-size: 26px;
+  font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
-  color: rgb(0, 0, 0);
+  color: grey;
   font-style: italic;
 }
 .author-name{
-  font-size: 26px;
+  font-size: 16px;
   font-family: 'Times New Roman', Times, serif;
 }
 .preview-title {
@@ -63,18 +66,22 @@ body {
   font-style: italic;
 }
 .sub-title {
-  font-size: 20px;
+  font-size: 14px;
   font-family: 'Times New Roman', Times, serif;
   font-style: italic;
 }
 .selector {
   font-family: 'Times New Roman', Times, serif;
   font-size: 12px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 .heading {
-  font-size: 30px;
+  font-size: 26px;
   font-family: 'Times New Roman', Times, serif;
   font-style: italic;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 .container {
   margin: auto;
@@ -82,8 +89,7 @@ body {
   padding-right: 10%;
 }
 .carrousal-container{
-  padding-left: 10%;
-  padding-right: 10%;
+  margin-bottom: 30px;
   text-align: center;
 }
 .lazy__slide {
@@ -112,7 +118,7 @@ body {
 }
 
 .thumbnail .keen-slider__slide {
-  max-height: 100px;
+  max-height: 150px;
   width: auto;
   height: auto;
   display: inline-block;

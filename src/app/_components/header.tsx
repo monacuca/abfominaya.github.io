@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <h2 className="header">
       <Link href="/" className="hover:underline">
-        ( home )
+        home
       </Link>
     </h2>
   );

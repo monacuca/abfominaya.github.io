@@ -1,5 +1,6 @@
 .markdown {
   @apply text-lg leading-relaxed;
+  font-size: 14px;
 }
 
 .markdown p{
@@ -12,11 +13,11 @@
 }
 
 .markdown h2 {
-  @apply text-3xl mt-12 mb-4 leading-snug;
+  @apply text-3xl mt-6 mb-2 leading-snug;
   font-size: 20px;
 }
 
 .markdown h3 {
   @apply text-2xl mt-8 mb-4 leading-snug;
-  font-size: 26px;
+  font-size: 16px;
 }
