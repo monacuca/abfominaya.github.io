@@ -44,11 +44,11 @@ body {
 }
 .author-name{
   font-size: 26px;
-  font-family: serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 .preview-title {
   font-size: 26px;
-  font-family: 'serif';
+  font-family: 'Times New Roman', Times, serif;
   font-style: italic;
 }
 .headshot {
@@ -58,7 +58,7 @@ body {
 }
 .title {
   padding-top: 9%;
-  font-size: 50px;
+  font-size: 40px;
   font-family: 'Times New Roman', Times, serif;
   font-style: italic;
 }
@@ -69,10 +69,10 @@ body {
 }
 .selector {
   font-family: 'Times New Roman', Times, serif;
-  font-size: 16px;
+  font-size: 12px;
 }
 .heading {
-  font-size: 40px;
+  font-size: 30px;
   font-family: 'Times New Roman', Times, serif;
   font-style: italic;
 }
