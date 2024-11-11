@@ -1,6 +1,6 @@
 ---
 title: "Gusanito"
-excerpt: "Ink on paper. Comic."
+excerpt: "Ink on paper. Comic. I eat worms."
 coverImage: "/assets/blog/projects/gusanito/0.png"
 date: "20230501"
 author:
@@ -73,6 +73,8 @@ tags: [
   "spanish",
   "autobio"
 ]
-mediaType: "art"
+mediaType: [
+  "art",
+  "featured"
+  ]
 ---
-A story from my childhood.

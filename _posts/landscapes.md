@@ -1,6 +1,6 @@
 ---
 title: "Tierras Lejanas"
-excerpt: "Ink and graphite on paper. Digital colors."
+excerpt: "Ink and graphite on paper. Digital colors. Illustration series exploring the aesthetics of Caribbean Colombia."
 coverImage: "/assets/blog/projects/landscapes/1.png"
 date: "20240401"
 author:
@@ -63,6 +63,8 @@ tags: [
   "digital-art",
   "painting"
 ]
-mediaType: "art"
+mediaType: [
+  "art",
+  "featured"
+  ]
 ---
-Colombian artist makes more art about Colombia. Shocker.

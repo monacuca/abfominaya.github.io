@@ -1,6 +1,6 @@
 ---
 title: "El Violador Eres Tu"
-excerpt: "Etching on Paper. Javascript. Axidraw."
+excerpt: "Etching on Paper. Javascript. Axidraw. Homage to a public performance."
 coverImage: "/assets/blog/projects/elvioladorerestu/ElVioladorEresTu.gif"
 date: "20220301"
 author:
@@ -84,8 +84,12 @@ tags: [
   "activism",
   "fiction"
 ]
-mediaType: "art"
+mediaType: [
+  "art",
+  "featured"
+  ]
 ---
+## About this project:
 For this project, there were two main topics I wanted to research and integrate. First, I wanted to examine how movements
 spread and communicate, specifically in the context of Latin American feminism. I also wanted to explore the intimacy
 of printmaking, its purpose in spreading information, and how this could be integrated with algorithmic processes as a bridge of two distinct languages. I began this project by parsing through hundreds of videos of modern-day protest performances

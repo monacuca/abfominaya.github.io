@@ -1,6 +1,6 @@
 ---
 title: "Forge"
-excerpt: "Ink on paper"
+excerpt: "Ink on paper. A story about sand, glass, a girl, and her dad."
 coverImage: "/assets/blog/projects/forge/1.png"
 date: "20181201"
 author:
@@ -39,6 +39,7 @@ tags: [
   "zine",
   "fiction"
 ]
-mediaType: "art"
+mediaType: [
+  "art"
+  ]
 ---
-Ink on paper

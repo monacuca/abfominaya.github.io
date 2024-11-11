@@ -5,10 +5,11 @@ import { useState } from 'react'
 import "./styles.css";
 
 type Props = {
+  name: string,
   posts: Post[];
 };
 
-export function Projects({ posts }: Props) {
+export function Selection({ name, posts }: Props) {
   const [query, setQuery] = useState('');
   
     // set the value of our useState query anytime the user types on our input
@@ -29,7 +30,7 @@ export function Projects({ posts }: Props) {
   return (
     <section>
       <h2 className="heading">
-        Projects
+        {name}
       </h2>
       <div className='search'>
       <input onChange={handleChange} type='text' placeholder='Filter by tags...'/>

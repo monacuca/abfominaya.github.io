@@ -1,6 +1,6 @@
 ---
 title: "Sometimes"
-excerpt: "Procedural Embroidery"
+excerpt: "Procedural Embroidery / Comic. Experimental generative embroidery work expanding upon previous comic art."
 coverImage: "/assets/blog/projects/sometimes/2.png"
 date: "20240601"
 author:
@@ -28,6 +28,8 @@ tags: [
   "javascript",
   "plotter"
 ]
-mediaType: "art"
+mediaType: [
+  "art",
+  "featured"
+  ]
 ---
-Trying to work with typography and embroidery - getting there!

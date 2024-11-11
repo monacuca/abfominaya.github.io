@@ -1,6 +1,6 @@
 ---
 title: "Pajaritos (Little Birds)"
-excerpt: "Gouache on Paper."
+excerpt: "Gouache and color pencil on paper. A series of bird paintings (ongoing)."
 coverImage: "/assets/blog/projects/pajaritos/1.png"
 date: "20240101"
 author:
@@ -28,6 +28,8 @@ tags: [
   "painting",
   "birds"
 ]
-mediaType: "art"
+mediaType: [
+  "art",
+  "featured"
+  ]
 ---
-I have been thinking a lot about biodiversity. These birds are endemic to where I grew up in Colombia and I am mesmerized by their colors.

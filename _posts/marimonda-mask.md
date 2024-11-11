@@ -1,6 +1,6 @@
 ---
 title: "Marimonda Mask"
-excerpt: "Javascript Web App (Face Tracking)."
+excerpt: "Javascript Web App (Face Tracking) exploring identity."
 coverImage: "/assets/blog/projects/marimondamask/1.gif"
 date: "20201101"
 author:
@@ -19,9 +19,13 @@ tags: [
   "spanish",
   "autobio"
 ]
-mediaType: "art"
+mediaType: [
+  "art",
+  "featured"
+  ]
+video: [
+  "mFaKs6nWtvg"
+  ]
 ---
-## Video
-[(Click here to watch video)](https://www.youtube.com/watch?v=mFaKs6nWtvg)
 ## About this project:
 This project is a bit of an exploration of my heritage, in particular my connections to my Caribbean cultural identity as a Colombian woman.

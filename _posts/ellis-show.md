@@ -1,6 +1,6 @@
 ---
 title: "Ellis Gallery Show"
-excerpt: "Solo Capstone Exhibition at the Ellis Gallery"
+excerpt: "Solo Capstone Exhibition at the Ellis Gallery."
 coverImage: "/assets/blog/projects/ellis-show/1.jpg"
 date: "20230314"
 author:
@@ -53,5 +53,7 @@ tags: [
   "show",
   "fine arts"
 ]
-mediaType: "blog"
+mediaType: [
+  "blog"
+  ]
 ---

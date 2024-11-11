@@ -1,6 +1,6 @@
 ---
 title: "My First ASMR"
-excerpt: "Video."
+excerpt: "Video. A fun sound experience (please wear headphones)."
 coverImage: "/assets/blog/projects/myfirstasmr/01.png"
 date: "20220901"
 author:
@@ -17,10 +17,13 @@ tags: [
   "performance",
   "psychology"
 ]
-mediaType: "art"
+mediaType: [
+  "art"
+  ]
+video: [
+  "gSDNW13OfWc"
+  ]
 ---
-## Video
-[(Click here to watch video)](https://www.youtube.com/watch?v=gSDNW13OfWc)
 ## About this project
 (For the best experience, please wear headphones)
 

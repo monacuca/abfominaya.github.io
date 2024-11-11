@@ -1,6 +1,6 @@
 ---
 title: "Soli Landscapes"
-excerpt: ""
+excerpt: "Javascript web app. Touch-free 'camera' using Soli sensors."
 coverImage: "/assets/blog/projects/solilandscapes/1.png"
 date: "20201101"
 author:
@@ -23,12 +23,14 @@ tags: [
   "interactive",
   "game"
 ]
-mediaType: "art"
+mediaType: [
+  "art"
+  ]
+video: [
+  "lEZeEH-T9hI",
+  "c84tYWVqRvg"
+  ]
 ---    
-## Video
-[(Click here to learn about Soli Landscapes)](https://www.youtube.com/watch?v=lEZeEH-T9hI)
-
-[(Click here to see demo)](https://www.youtube.com/watch?v=c84tYWVqRvg)
 ## About this project 
 This project is a landscape generator, the idea of it is that a 
 person can go in and traverse through the environment and take images,

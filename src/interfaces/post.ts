@@ -14,7 +14,7 @@ export type Post = {
   content: string;
   carrouselImages: CarrouselImage[];
   tags: string[];
-  mediaType: string;
-  video: string;
+  mediaType: string[];
+  video: string[];
   preview?: boolean;
 };

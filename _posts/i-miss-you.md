@@ -1,6 +1,6 @@
 ---
 title: "I miss you"
-excerpt: "Comic. Digital art."
+excerpt: "Comic. Digital art. A little comic about the loss of friendship."
 coverImage: "/assets/blog/projects/imissyou/1.png"
 date: "20240401"
 author:
@@ -40,6 +40,7 @@ tags: [
   "fiction",
   "autobio"
 ]
-mediaType: "art"
+mediaType: [
+  "art"
+  ]
 ---
-I miss you. That is all.

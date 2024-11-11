@@ -1,6 +1,6 @@
 ---
 title: "Stagnant"
-excerpt: "1-Page Comic. Ink on paper"
+excerpt: "1-Page Comic. Ink on paper. Thoughts about post-college life."
 coverImage: "/assets/blog/projects/stagnant/1.png"
 date: "20231016"
 author:
@@ -19,6 +19,7 @@ tags: [
   "fiction",
   "autobio"
 ]
-mediaType: "art"
+mediaType: [
+  "art"
+  ]
 ---
-Ink on paper.

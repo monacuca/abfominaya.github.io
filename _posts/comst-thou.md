@@ -1,6 +1,6 @@
 ---
 title: "Coms't Thou"
-excerpt: "Ink on paper. Javascript. Axi-draw."
+excerpt: "Ink on paper. Javascript. Axidraw-n generative comic."
 coverImage: "/assets/blog/projects/comstthou/1.png"
 date: "20211101"
 author:
@@ -30,7 +30,11 @@ tags: [
   "human-plotter interaction",
   "fiction"
 ]
-mediaType: "art"
+mediaType: [
+  "art",
+  "featured"
+  ]
 ---
+## About this project:
 Coms't Thou is a generative, plot, graphic novel that utilizes web scraping and natural language processing to construct surreal narratives about environments. This project emerged as an exploration of the visual language of comics and
 the algorithmic, multilayered complexity of constructing a concrete narrative computationally. This project prompted me to explore complex natural language processing techniques, web-scraping and image processing.

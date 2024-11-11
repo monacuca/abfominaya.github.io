@@ -1,6 +1,6 @@
 ---
 title: " Agujeros negros y huecos en la arena."
-excerpt: "Ink on paper. Comic."
+excerpt: "Ink on paper. Comic. Memories of a foreign land."
 coverImage: "/assets/blog/projects/blackholes/1.png"
 date: "20200501"
 author:
@@ -40,5 +40,7 @@ tags: [
   "spanish",
   "autobio"
 ]
-mediaType: "art"
+mediaType: [
+  "art"
+  ]
 ---

@@ -1,6 +1,6 @@
 ---
 title: "In the Footsteps of a Stranger"
-excerpt: "Mural"
+excerpt: "Glass mural commissioned by CMU's LCAL Department."
 coverImage: "/assets/blog/projects/mural/1.jpg"
 date: "20240317"
 author:
@@ -30,6 +30,10 @@ tags: [
   "plotter",
   "human-plotter interaction"
 ]
-mediaType: "art"
+mediaType: [
+  "art",
+  "featured"
+  ]
 ---
+## About this project:
 I was commissioned to design *In the Footsteps of a Stranger*, which currently resides in Carnegie Mellon University - Posener Hall 3rd Floor.

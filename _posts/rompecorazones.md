@@ -1,6 +1,6 @@
 ---
 title: "Rompecorazones (Heartbreaker)"
-excerpt: "Video. Short Film."
+excerpt: "Video. Short Film. A tale about a girl and her robot."
 coverImage: "/assets/blog/projects/rompecorazones/01.png"
 date: "20221101"
 author:
@@ -37,10 +37,14 @@ tags: [
   "spanish",
   "autobio"
 ]
-mediaType: "art"
+mediaType: [
+  "art",
+  "featured"
+  ]
+video: [
+  "pIh6VeSF5SY"
+]
 ---
-## Video
-[(Click here to watch video)](https://www.youtube.com/watch?v=pIh6VeSF5SY)
 ## About this project:
 This project is a piece that contextualizes my failure in attempting to have a robot dance with me.
 My goal, at its core, was creating a robotic interaction that would follow me as I moved or danced with it. But I wasn't able to get quite there. I spent roughly 2 months continuously debugging a UR5 Cobot (Collaborative Robot), as I attempted to have it follow my face in real time.  Using Handsfree.js, Python and a couple of dozen cups of coffee, I was able to partially achieve this daunting task. Without getting too much into the technical implementation of my robotic interactions, I had a lot of issues wrapping my head around different SDK's and networking protocols for communicating with the robot with my computer.

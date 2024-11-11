@@ -1,6 +1,6 @@
 ---
 title: "I Thank The Virgin"
-excerpt: "Machine-knit textiles. Knitout."
+excerpt: "Machine-knit textiles. Knitout. Machine-knit icons of Marian Devotions."
 coverImage: "/assets/blog/projects/ithankthevirgin/1.png"
 date: "20210501"
 author:
@@ -30,6 +30,8 @@ tags: [
   "capstone",
   "religion"
 ]
-mediaType: "art"
+mediaType: [
+  "art",
+  "featured"
+  ]
 ---
-Algorithmically-generated knit textiles; jaquard machine-knit icons of Marian Devotions.

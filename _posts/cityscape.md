@@ -1,6 +1,6 @@
 ---
 title: "Cityscape"
-excerpt: "Procedural Embroidery"
+excerpt: "Procedural Embroidery exploring familiar sights."
 coverImage: "/assets/blog/projects/cityscape/1.png"
 date: "20240501"
 author:
@@ -22,6 +22,8 @@ tags: [
   "javascript",
   "plotter"
 ]
-mediaType: "art"
+mediaType: [
+  "art",
+  "featured"
+  ]
 ---
-Since I use Embroidery libraries for my Plotter art, I want to actually work directly with the embroidery software!

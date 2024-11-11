@@ -1,6 +1,6 @@
 ---
 title: "Carnaval/Colera"
-excerpt: "Video performance on culture."
+excerpt: "Video performance on culture and literature."
 coverImage: "/assets/blog/projects/carnival/1.jpg"
 date: "2020001"
 author:
@@ -34,11 +34,13 @@ tags: [
   "spanish",
   "autobio"
 ]
-mediaType: "art"
+mediaType: [
+  "art"
+  ]
+video: [
+  "WiG3icmRWIo",
+  "Mrc5dWJmi5Y"
+]
 ---
-## Video
-[(Click here to watch Carnaval)](https://www.youtube.com/watch?v=WiG3icmRWIo)
-
-[(Click here to watch Colera)](https://www.youtube.com/watch?v=Mrc5dWJmi5Y)
-## About this project
-This project is a series of performances I made as a reflection on connecting with culture as a member of a diaspora group. Reaching the intangible and imitating from projections through a glass screen.
+<!--- This project is a series of performances I made as a reflection on connecting with culture as a member of a diaspora group.
+Reaching the intangible and imitating from projections through a glass screen. --->

@@ -1,6 +1,6 @@
 ---
 title: "PixelDraw (Susan Kare Edition)"
-excerpt: "Javascript web app."
+excerpt: "Javascript web app. Multiplayer experience where you and another player collaborate to make a drawing. "
 coverImage: "/assets/blog/projects/pixeldraw/1.jpg"
 date: "20201001"
 author:
@@ -29,12 +29,14 @@ tags: [
   "interactive",
   "game"
 ]
-mediaType: "art"
+mediaType: [
+  "art"
+  ]
+video: [
+  "vxwGg2pyVTo",
+  "kG1p9YYAxLI"
+  ]
 ---
-## Video
-[(Click here to learn about Pixel Draw)](https://www.youtube.com/watch?v=vxwGg2pyVTo)
-
-[(Click here to watch full demo)](https://www.youtube.com/watch?v=kG1p9YYAxLI)
 ## About this project
 This project is a collaborative pixel environment, 
 where two users get assigned a role of black or white 

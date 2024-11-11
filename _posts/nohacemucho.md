@@ -1,6 +1,6 @@
 ---
 title: "No Hace Mucho...."
-excerpt: "Ink on paper. Javascript. Plotter."
+excerpt: "Ink on paper. Javascript. Plotter. An exploration of a lost world."
 coverImage: "/assets/blog/projects/nohacemucho/1.png"
 date: "20211101"
 author:
@@ -43,7 +43,11 @@ tags: [
   "plotter",
   "generative"
 ]
-mediaType: "art"
+mediaType: [
+  "art",
+  "featured"
+  ]
 ---
+## About this project:
 No Hace Mucho (Not So Long Ago) is a series of plots created through the processing of web-scraped historical images of 19th century Colombia. These images depict various groups in Colombian history, from politicians, paramilitary officials,
 to ordinary citizens. This piece emerged as an exploration of history through the virtual representations of it that are available and exists in the intersection of the material and digital world, with multiple steps of processing in between.

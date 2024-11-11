@@ -1,6 +1,6 @@
 ---
 title: "Mojana"
-excerpt: "Video."
+excerpt: "Storyboard/Illustrated Video. Who was Mojana? Did she deserve it?"
 coverImage: "/assets/blog/projects/mojana/01.png"
 date: "20220501"
 author:
@@ -19,10 +19,14 @@ tags: [
   "colombia",
   "spanish"
 ]
-mediaType: "art"
+mediaType: [
+  "art",
+  "featured"
+  ]
+video: [
+  "YnAQrLlNefM"
+  ]
 ---
-## Video
-[(Click here to watch video)](https://www.youtube.com/watch?v=YnAQrLlNefM)
 ## About this project
 This project emerged as an exploration of the complex history of banana 
 cultivation in the Colombian Caribbean. Earlier this semester, I visited 

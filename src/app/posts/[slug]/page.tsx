@@ -6,6 +6,7 @@ import markdownToHtml from "@/lib/markdownToHtml";
 import Container from "@/app/_components/container";
 import Header from "@/app/_components/header";
 import { Carrousel} from "@/app/_components/image-carrousel";
+import { Videos } from "@/app/_components/videos";
 import { PostBody } from "@/app/_components/post-body";
 import { PostHeader } from "@/app/_components/post-header";
 
@@ -18,6 +19,7 @@ export default async function Post({ params }: Params) {
 
   const content = await markdownToHtml(post.content || "");
   const carrouselImages = post.carrouselImages
+  const videoIds = post.video
 
   return (
     <main>
@@ -32,7 +34,10 @@ export default async function Post({ params }: Params) {
             tags={post.tags}
           />
           {(carrouselImages != undefined) && <Carrousel 
-            carrouselImages={post.carrouselImages}
+            carrouselImages={carrouselImages}
+            />}
+            {(videoIds != undefined) && <Videos 
+            videoIds={videoIds}
             />}
           <PostBody content={content} />
         </article>

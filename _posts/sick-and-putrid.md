@@ -1,6 +1,6 @@
 ---
 title: "This Sick and Putrid World"
-excerpt: "Short Film. Storyboard."
+excerpt: "Animated short Film/storyboard. A story about a boy, Downtown Miami and a festering infection."
 coverImage: "/assets/blog/projects/sickandputrid/01.png"
 date: "20200701"
 author:
@@ -23,9 +23,12 @@ tags: [
   "illustration",
   "fiction"
 ]
-mediaType: "art"
+mediaType: [
+  "art"
+  ]
+video: [
+  "O6lwH0jqnYY"
+  ]
 ---
-## Video
-[(Click here to watch video)](https://www.youtube.com/watch?v=O6lwH0jqnYY)
 ## About this project:
 This project was done in collaboration with Sam Yaziji.

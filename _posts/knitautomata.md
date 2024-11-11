@@ -1,6 +1,6 @@
 ---
 title: "Knit Automata"
-excerpt: ""
+excerpt: "Machine-knit textiles. Knitout. Computerized machine-knit explorations."
 coverImage: "/assets/blog/projects/knitautomata/1.png"
 date: "20210501"
 author:
@@ -38,6 +38,10 @@ tags: [
   "javascript",
   "knitting"
 ]
-mediaType: "art"
+mediaType: [
+  "art",
+  "featured"
+  ]
 ---
+## About this project:
 I created a web tool that allows a user to create dynamic knitable jacquard patterns from Conway-based cellular automatons. This web tool allows the user to create different sizes of square knitable patterns, utilize different rules for the cellular automaton, and create distinct seed patterns with a drawing tool. The output of the program is a compilable knit-out file that can be sent to a knitting machine and printed. 

@@ -1,40 +1,40 @@
 ---
 title: "MoonBuddy"
-excerpt: "In Adjunct Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology (UIST '22 Adjunct). Association for Computing Machinery, New York, NY, USA, Article 4, 1–4. https://doi.org/10.1145/3526114.3558690 "
-coverImage: "/assets/blog/projects/moonbuddy/01.png"
+excerpt: "In Adjunct Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology (UIST '22 Adjunct). Association for Computing Machinery, New York, NY, USA, Article 4, 1–4. doi: 10.1145/3526114.3558690 "
+coverImage: "/assets/blog/research/moonbuddy/moon-buddy.png"
 date: "20220501"
 author:
   name: Angelica Bonilla (A.B.) Fominaya
   picture: "/assets/blog/authors/abf.png"
 ogImage:
-  url: "/assets/blog/projects/moonbuddy/01.png"
+  url: "/assets/blog/research/moonbuddy/moon-buddy.png"
 carrouselImages:
   - key: "1"
-    url: "/assets/blog/projects/moonbuddy/01.png"
+    url: "/assets/blog/research/moonbuddy/01.png"
     caption: "1"
   - key: "2"
-    url: "/assets/blog/projects/moonbuddy/02.jpg"
+    url: "/assets/blog/research/moonbuddy/02.jpg"
     caption: "2"
   - key: "3"
-    url: "/assets/blog/projects/moonbuddy/03.jpg"
+    url: "/assets/blog/research/moonbuddy/03.jpg"
     caption: "3"
   - key: "4"
-    url: "/assets/blog/projects/moonbuddy/04.jpg"
+    url: "/assets/blog/research/moonbuddy/04.jpg"
     caption: "4"
   - key: "5"
-    url: "/assets/blog/projects/moonbuddy/05.jpg"
+    url: "/assets/blog/research/moonbuddy/05.jpg"
     caption: "5"
   - key: "6"
-    url: "/assets/blog/projects/moonbuddy/06.jpg"
+    url: "/assets/blog/research/moonbuddy/06.jpg"
     caption: "6"
   - key: "7"
-    url: "/assets/blog/projects/moonbuddy/07.jpg"
+    url: "/assets/blog/research/moonbuddy/07.jpg"
     caption: "7"
   - key: "8"
-    url: "/assets/blog/projects/moonbuddy/08.jpg"
+    url: "/assets/blog/research/moonbuddy/08.jpg"
     caption: "8"
   - key: "9"
-    url: "/assets/blog/projects/moonbuddy/09.jpg"
+    url: "/assets/blog/research/moonbuddy/09.jpg"
     caption: "9"
 tags: [
   "research",
@@ -44,7 +44,9 @@ tags: [
   "space",
   "uist"
 ]
-mediaType: "research"
+mediaType: [
+  "research"
+  ]
 ---
 # MoonBuddy: A Voice-based Augmented Reality User Interface That Supports Astronauts During Extravehicular Activities. 
 Access the paper [here (click)](https://doi.org/10.1145/3526114.3558690).

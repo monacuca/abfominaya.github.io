@@ -1,6 +1,6 @@
 ---
 title: "Liminal Spaces"
-excerpt: "Ink on paper.."
+excerpt: "Ink on paper. Illustrated series of human-plotter interactions."
 coverImage: "/assets/blog/projects/liminalspaces/1.png"
 date: "20211101"
 author:
@@ -38,6 +38,10 @@ tags: [
   "human-plotter interaction",
   "fiction"
 ]
-mediaType: "art"
+mediaType: [
+  "art",
+  "featured"
+  ]
 ---
+## About this project:
 Liminal Spaces is a collection of images created through human interactions with plot drawings creating using reaction-diffusion. The plot drawings were used as a base to construct evocative illustrations that attempted to see "the drawing that exists behind the plot".

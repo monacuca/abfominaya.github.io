@@ -1,16 +1,16 @@
 ---
 title: "Solid Knitting"
-excerpt: "In Adjunct Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology (UIST '22 Adjunct). Association for Computing Machinery, New York, NY, USA, Article 4, 1–4. https://doi.org/10.1145/3526114.3558690 "
-coverImage: "/assets/blog/projects/solidknitting/1.jpeg"
+excerpt: "In Adjunct Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology (UIST '22 Adjunct). Association for Computing Machinery, New York, NY, USA, Article 4, 1–4. doi: 10.1145/3526114.3558690 "
 date: "20240802"
 author:
   name: Angelica Bonilla (A.B.) Fominaya
   picture: "/assets/blog/authors/abf.png"
+coverImage: "/assets/blog/research/solid-knitting/solid-knitting.png"
 ogImage:
-  url: "/assets/blog/projects/solidknitting/1.jpeg"
+  url: "/assets/blog/research/solid-knitting/solid-knitting.png"
 carrouselImages:
   - key: "1"
-    url: "/assets/blog/projects/solidknitting/1.jpeg"
+    url: "/assets/blog/research/solid-knitting/solid-knitting.png"
     caption: "1"
 tags: [
   "knitting",
@@ -22,7 +22,9 @@ tags: [
   "paper",
   "siggraph"
 ]
-mediaType: "research"
+mediaType: [
+  "research"
+  ]
 ---
 Access the paper [here (click)](https://dl.acm.org/doi/10.1145/3658123).
 ## Award:

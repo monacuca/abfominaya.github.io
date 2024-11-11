@@ -1,6 +1,6 @@
 ---
 title: "Todas mis casas (Every One of my homes)"
-excerpt: ""
+excerpt: "Ink, graphite and color pencil on Paper. Illustration series exploring every one of my homes."
 coverImage: "/assets/blog/projects/todaslascasas/01.png"
 date: "20230501"
 author:
@@ -52,8 +52,7 @@ tags: [
   "spanish",
   "autobio"
 ]
-mediaType: "art"
+mediaType: [
+  "art"
+  ]
 ---
-A collection of illustrations of every house I lived in for more than 6 months until starting college.
-
-A reflection on homelessness, space, the concept of a home, and emptiness.

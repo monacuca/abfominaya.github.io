@@ -1,6 +1,6 @@
 ---
 title: "Pinturitas (Little Paintings)"
-excerpt: "Gouache on Paper."
+excerpt: "Gouache and color pencil on paper. A series of paintings exploring Caribbean Colombia."
 coverImage: "/assets/blog/projects/pinturitas/1.png"
 date: "20230101"
 author:
@@ -39,5 +39,8 @@ tags: [
   "colombia",
   "painting"
 ]
-mediaType: "art"
+mediaType: [
+  "art",
+  "featured"
+  ]
 ---

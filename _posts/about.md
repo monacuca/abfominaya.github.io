@@ -7,7 +7,9 @@ author:
 tags: [
   "about"
 ]
-mediaType: "about"
+mediaType: [
+  "about"
+]
 ---
 My name is Angelica Bonilla (A. B.) Fominaya and I am an artist, engineer and researcher interested in human-computer interaction, robotic creativity and immersive technologies! 
 <br>

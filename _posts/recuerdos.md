@@ -1,6 +1,6 @@
 ---
 title: "Recuerdos (Memories)"
-excerpt: "Machine Knit. Knitout"
+excerpt: "Machine Knit. Knitout. Tapestries exploring religion, fruit and color."
 coverImage: "/assets/blog/projects/recuerdos/07.png"
 date: "20230301"
 author:
@@ -51,13 +51,15 @@ tags: [
   "capstone",
   "religion"
 ]
-mediaType: "art"
+mediaType: [
+  "art",
+  "featured"
+  ]
 ---
 Knitting is an algorithmically complex process that has been extensively studied by computer scientists, mathematicians, designers and engineers. Traditionally, it has served as one of the foundations of society, providing us with footwear, clothing, accessories and equipment. It is a craft associated with labor politics, femininity and traditionalism — yet it is also a craft that we wear on an almost-daily basis. As a craft, it is one of the oldest in existence, rivaled only by weaving.  It is an integral part of our history and it contains thematic and computational value that deserves to be explored.
 
   
 **Special thanks:**
-
 Gabrielle Ohlson, for allowing me to use some of her sophisticated image processing/knitout parsing code.
 
 Jenny Lin, for teaching me how to work with the Shima knitting machine.

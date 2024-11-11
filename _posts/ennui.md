@@ -1,6 +1,6 @@
 ---
 title: "Ennui"
-excerpt: "Ink on paper. Comic. Javascript"
+excerpt: "Ink on paper. Comic. Javascript. Human-plotter explorations, a story about a ghost-girl in a radioactive town."
 coverImage: "/assets/blog/projects/ennui/0.png"
 date: "20230301"
 author:
@@ -30,6 +30,9 @@ tags: [
   "human-plotter interaction",
   "fiction"
 ]
-mediaType: "art"
+mediaType: [
+  "art"
+  ]
 ---
+## About this project:
 This is an experimental comic made by first procedurally generating panel and "half-tone" compositions and hand drawing figures on top. In the comic, I saw the story of Ennui, the ghost of a girl in a nuclear factory, watching waste desecrate what was once her home.

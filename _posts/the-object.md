@@ -1,6 +1,6 @@
 ---
 title: "The Object"
-excerpt: "Graphite and india ink on plot ink drawing."
+excerpt: "Graphite and india ink on plot ink drawing. A girl and her mom, and their thoughts bounded by a composition."
 coverImage: "/assets/blog/projects/theobject/1.png"
 date: "20211001"
 author:
@@ -24,8 +24,11 @@ tags: [
   "human-plotter interaction",
   "fiction"
 ]
-mediaType: "art"
+mediaType: [
+  "art"
+  ]
 ---
+## About this project:
 The Object (Comic) explores the plotter as a tool for creating comic art. 
 Plot drawings are generated in a pattern across the page, and I attempt to 
 meaning from the different marks with the goal of constructing a narrative.

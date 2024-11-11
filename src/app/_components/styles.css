@@ -59,6 +59,11 @@ body {
   padding-bottom: 25px;
   margin: auto;
 }
+.ytplayer {
+  width: 85%;
+  height: 300px;
+  margin: auto;
+}
 .title {
   padding-top: 9%;
   font-size: 40px;

@@ -1,6 +1,6 @@
 ---
 title: "Estimating Yarn Length for Machine-Knitted Structures"
-excerpt: "In Proceedings of the 8th ACM Symposium on Computational Fabrication (SCF '23). Association for Computing Machinery, New York, NY, USA, Article 3, 1–9. https://doi.org/10.1145/3623263.3623355"
+excerpt: "In Proceedings of the 8th ACM Symposium on Computational Fabrication (SCF '23). Association for Computing Machinery, New York, NY, USA, Article 3, 1–9. doi: 10.1145/3623263.3623355"
 date: "20231121"
 author:
   name: Angelica Bonilla (A.B.) Fominaya
@@ -12,7 +12,14 @@ tags: [
   "robotics",
   "paper"
 ]
-mediaType: "research"
+coverImage: "/assets/blog/research/yarn-length/yarn-length.png"
+carrouselImages:
+  - key: "1"
+    url: "/assets/blog/research/yarn-length/yarn-length.png"
+    caption: "Paper excerpt - Estimating Yarn Length for Machine-Knitted Structures"
+mediaType: [
+  "research"
+  ]
 ---
 # Estimating Yarn Length for Machine-Knitted Structures
 Access the paper [here (click)](https://dl.acm.org/doi/10.1145/3623263.3623355).

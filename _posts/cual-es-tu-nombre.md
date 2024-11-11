@@ -1,6 +1,6 @@
 ---
 title: "Cual es tu nombre?"
-excerpt: "Ink on paper, graphite. Comic."
+excerpt: "Ink on paper, graphite. Comic. A gift for my mom."
 coverImage: "/assets/blog/projects/cualestunombre/00.png"
 date: "20230301"
 author:
@@ -70,8 +70,7 @@ tags: [
   "spanish",
   "autobio"
 ]
-mediaType: "art"
+mediaType: [
+  "art"
+  ]
 ---
-2023. Ink on paper, graphite. Comic. 
-
-For my mama.

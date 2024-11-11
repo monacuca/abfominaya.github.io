@@ -57,12 +57,17 @@ tags: [
   "knitting",
   "solid-knitting"
 ]
-mediaType: "art"
+mediaType: [
+  "art", "featured"
+  ]
+video: [
+  "oaG82Zejz0I"
+  ]
 ---
 Various types of algorithmic textile approaches have been historically employed to create soft objects– from the use of industrial knitting fabrics using computerized knitting or weaving machines to 3D knitting of hollow materials (to create objects such as plush toys, socks or shirts). Currently, there are developments allowing for the construction of completely solidly knit objects. For my capstone I am interested in constructing a series of knit objects for a large-scale installation. Specifically, I wanted to use 3D knitting, solid knitting, and computerized machine knitting to create a fully knit installation. I was able to successfully accomplish this. 
 
 ## Background
-Knitting is an algorithmically complex process that has been extensively studied by computer scientists, mathematicians, designers and engineers. Traditionally, it has served as one of the foundations of society, providing us with footwear, clothing, accessories and equipment. It is a craft associated with labor politics, femininity and traditionalism — yet it is also a craft that we wear on an almost-daily basis. As a craft, it is one of the oldest in existence, rivaled only by weaving.  It is an integral part of our history and it contains thematic and computational value that deserves to be explored.  Solid knitting is a novel type of knitting that is being currently developed at the CMU Textiles Lab. With solid knitting, we have the potential to create completely solid knit objects, thus allowing us to create knit furniture and other types of sturdy objects. Other methods of knit-based fabrication, such as computerized machine knitting provide ways of algorithmically constructing complex 3D hollow objects or patterns. 
+Knitting has served as one of the foundations of society, providing us with footwear, clothing, accessories and equipment. It is a craft associated with labor politics, femininity and traditionalism — yet it is also a craft that we wear on an almost-daily basis. As a craft, it is one of the oldest in existence, rivaled only by weaving.  It is an integral part of our history and it contains thematic and computational value that deserves to be explored.  Solid knitting is a novel type of knitting that is being currently developed at the CMU Textiles Lab. With solid knitting, we have the potential to create completely solid knit objects, thus allowing us to create knit furniture and other types of sturdy objects. Other methods of knit-based fabrication, such as computerized machine knitting provide ways of algorithmically constructing complex 3D hollow objects or patterns. 
 
 When I was ten years old, I immigrated to the United States from Colombia. I only ever went back twice until the time I graduated from high school. This discrepancy in space and time made me feel like Frankenstein’s monster, stitched together from two worlds in the worst possible way. I knew other kids in my community who regularly had the ability to visit family members and friends. I didn’t have this opportunity, living with an undocumented mother, a sick grandmother, and an alcoholic, dying uncle. 
 
