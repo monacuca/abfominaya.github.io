@@ -12,6 +12,7 @@ tags: [
 mediaType: [
   "blog"
   ]
+coverImage: "/assets/blog/blog/weirdgirl.jpg"
 ---
 # Alphabet Soup: The case of the weird girl, whomever she might be.
 

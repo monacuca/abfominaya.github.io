@@ -12,6 +12,7 @@ tags: [
 mediaType: [
   "blog"
 ]
+coverImage: "/assets/blog/blog/ayear.jpg"
 ---
 It has been a year since I moved to NYC and began working.
 
