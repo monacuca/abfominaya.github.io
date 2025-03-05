@@ -9,6 +9,7 @@ import { Carrousel} from "@/app/_components/image-carrousel";
 import { Videos } from "@/app/_components/videos";
 import { PostBody } from "@/app/_components/post-body";
 import { PostHeader } from "@/app/_components/post-header";
+import CoverImage from "@/app/_components/cover-image";
 
 export default async function Post({ params }: Params) {
   const post = getPostBySlug(params.slug);
@@ -36,6 +37,10 @@ export default async function Post({ params }: Params) {
           {(carrouselImages != undefined) && <Carrousel 
             carrouselImages={carrouselImages}
             />}
+            {(carrouselImages == undefined) && (post.coverImage != undefined) && <CoverImage 
+            title={post.title}
+            src={post.coverImage}
+            />}
             {(videoIds != undefined) && <Videos 
             videoIds={videoIds}
             />}
@@ -47,24 +52,26 @@ export default async function Post({ params }: Params) {
 }
 
 type Params = {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 };
 
-export function generateMetadata({ params }: Params): Metadata {
+export async function generateMetadata(props: Params): Promise<Metadata> {
+  const params = await props.params;
   const post = getPostBySlug(params.slug);
 
   if (!post) {
     return notFound();
   }
 
-  const title = `${post.title}`;
+  const title = `${post.title} | A. B. Fominaya`;
 
   return {
     title,
     openGraph: {
       title,
+      images: [post.coverImage],
     },
   };
 }

@@ -54,7 +54,6 @@ function ThumbnailPlugin(
 export function ImageCarrousel ({ carrouselImages }: Props) {
   const [loaded, setLoaded] = React.useState<boolean[]>([])
   const [currentSlide, setCurrentSlide] = React.useState(0)
-
   const [sliderRef, instanceRef] = useKeenSlider<HTMLDivElement>({
     animationEnded(s) {
       setCurrentSlide(s.track.details.rel)
@@ -85,7 +84,7 @@ export function ImageCarrousel ({ carrouselImages }: Props) {
     <div ref={sliderRef} className="keen-slider">
       {carrouselImages.map((carrouselImage, index) => (
         <div key={index} className="keen-slider__slide lazy__slide">
-          <img src={loaded[index] ? carrouselImage.url : ""} />
+          <img src={loaded[index] ? carrouselImage.url : " "} />
         </div>
       ))}
     </div>

@@ -28,11 +28,11 @@ export default function PageSelector( {posts} : Props) {
     <Container>
     <Intro />
     <div className="selector">
-      <button onClick={() => updateState('PROJECTS')} className={"hover:underline mr-2"}>Projects</button>|
+      <button onClick={() => updateState('PROJECTS')} className={"hover:underline mr-2"}> Artwork </button>|
       <button onClick={() => updateState('RESEARCH')} className={"hover:underline mr-2 ml-2"}> Research</button>|
+      <button onClick={() => updateState('MUSINGS')} className={"hover:underline mr-2 ml-2"}> Blog </button>|
       <button onClick={() => updateState('ABOUT')} className={"hover:underline mr-2 ml-2"}> About</button>|
-      <button onClick={() => updateState('MUSINGS')} className={"hover:underline mr-2 ml-2"}> Musings</button>|
-      <button onClick={() => updateState('FEATURED')} className={"hover:underline ml-2"}> ★</button>
+      <button onClick={() => updateState('FEATURED')} className={"hover:underline ml-2"}> Home </button>
     </div>
     {(value == 'FEATURED') && <Selection posts={featuredPosts} name="Featured Projects"/>}
     {(value == 'PROJECTS') && <Selection posts={projectPosts} name="Artwork"/>}

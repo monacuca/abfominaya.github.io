@@ -5,6 +5,7 @@
 
 .markdown p{
   font-size: 14px;
+  padding-bottom: 15px;
 }
 .markdown ul,
 .markdown ol,
@@ -12,12 +13,26 @@
   @apply my-6;
 }
 
+.markdown h1 {
+  @apply text-3xl mt-6 mb-2 leading-snug;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 24px;
+}
+
 .markdown h2 {
   @apply text-3xl mt-6 mb-2 leading-snug;
+  font-style: italic;
+
   font-size: 20px;
 }
 
 .markdown h3 {
   @apply text-2xl mt-8 mb-4 leading-snug;
   font-size: 16px;
+}
+.markdown li {
+  padding-left: 5px;
+  font-size: 14px;
+  font-style: italic;
 }

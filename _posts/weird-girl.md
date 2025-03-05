@@ -7,16 +7,14 @@ author:
 excerpt: "The case of the weird girl, whomever she might be."
 tags: [
   "autobio",
-  "womanhood"
+  "womanhood",
+  "reflection"
 ]
 mediaType: [
   "blog"
   ]
 coverImage: "/assets/blog/blog/weirdgirl.jpg"
 ---
-# Alphabet Soup: The case of the weird girl, whomever she might be.
-
-## Note:
 I don’t intend to reflect the opinions of other non-conforming young women who ever felt excluded. 
 
 
@@ -25,8 +23,7 @@ At the same time, this work represents a commentary to our collective struggles,
 
 To this day, I still don’t know if some of these things are universal experiences that every single girl has, because as women, we are seldom seen as complex, layered human beings. 
 
-
-## Alphabet Soup
+# A letter for the weird girL...
 
 I find myself writing this over and over in my head, trying to find ways in which I can formalize how I feel about “it”.
 
@@ -54,10 +51,10 @@ I lived the first ten years of my life in Colombia, and in a way, it seemed like
 
 Even then, at 10, I already had multiple falling outs with friends, an inability to fit into social groups, notes from teachers at parent-teachers conferences about my talkativeness and hyperactivity. The only friends I could have needed to be discrete, singular, and exist in such a way that I could devote my attention and love solely to them. Things often didn’t go my way otherwise, group settings often bringing out the worst aspects of myself. In a way, leaving Colombia was okay in this regard. I did miss the one friend I had, Jairito, who at the time was my crutch after my falling out with my best friend of three years, Maria Isabela. At this point, I already disliked fundamental aspects of myself, I carried them in my mind as a little list:
 
-1. I hated that I couldn’t maintain friendships.
-2. I hated that I spoke too much, I hated that I was blonde.
-3. I hated that I was paler than everyone else in my family.
-4. I hated that my smile was teethy, rectangular, wide and ugly. 
+- A. I hated that I couldn’t maintain friendships.
+- B I hated that I spoke too much, I hated that I was blonde.
+- C. I hated that I was paler than everyone else in my family.
+- D. I hated that my smile was teethy, rectangular, wide and ugly. 
 
 
 I hated that I was leaving the home I always had even if I found a new start potentially exciting. 
@@ -76,10 +73,11 @@ I struggle with this intrinsic feeling of otherness.
 
 
 I started contemplating if I was autistic when I was around 13 years old. I found it difficult to come to terms with the idea of self diagnosis, but I found myself secreting scouring stories of other girls in WrongPlanet forum. At the time, this diagnosis was Aspergers and my friend Joana had recently been diagnosed with it. I found that my feeling of isolation and sensitivities stemmed from this. In a way this would explain the pain I experienced from being socially isolated. This was a secret I kept to myself, for the most part. At some point, I looked back at this version of myself and thought she was wrong – 
-1. I became really good at talking to people.
-2. I never really struggled with eye contact.
-3. Adults liked me.
-4. My voice was loud and clear. I talked a lot. 
+
+- A. I became really good at talking to people.
+- B. I never really struggled with eye contact.
+- C. Adults liked me.
+- D. My voice was loud and clear -- I talked a lot. 
 
 I just had a bad personality, which one day enough guilt would cause me to finally repent from every misgiving I had.
 

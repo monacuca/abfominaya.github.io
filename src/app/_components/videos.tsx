@@ -10,7 +10,7 @@ export function Videos({
 }: Props) {
   return (videoIds.map((videoId) => (
     <iframe
-          id="ytplayer"
+          id={videoId}
           className={"ytplayer"}
           src={`https://www.youtube.com/embed/${videoId}?autoplay=0&origin=http://example.com&controls=0&rel=1`}
         ></iframe>

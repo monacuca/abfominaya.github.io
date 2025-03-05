@@ -16,7 +16,7 @@ export function About({ post }: Props) {
       About
       </h2>
       <Container>
-      <img className="headshot" src={post.author.picture} alt={`Angelica Bonilla Fominaya... Or a close approximation`}/>
+      <img className="headshot" src={post.author.picture} alt={`Angelica Bonilla Fominaya... Once upon a time...`}/>
       <PostBody content={content} />
       </Container>
     </section>
