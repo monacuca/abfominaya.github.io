@@ -11,7 +11,8 @@ import { PostBody } from "@/app/_components/post-body";
 import { PostHeader } from "@/app/_components/post-header";
 import CoverImage from "@/app/_components/cover-image";
 
-export default async function Post({ params }: Params) {
+export default async function Post(props: Params) {
+  const params = await props.params;
   const post = getPostBySlug(params.slug);
 
   if (!post) {
